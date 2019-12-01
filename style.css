@@ -21,16 +21,25 @@ body#body {
 
 a.nav-link {
     font-family: 'Poppins', sans-serif;
-    color: red;
     padding: 25px;
 }
 
-
-li.nav-item {
-    padding: 10px;
+a.nav-link:hover:nth-child(1){
+    color: #1f2f8b;
+    border-top: 1px solid #1f2f8b;
 }
 
-li.nav-item:hover .nav-link:hover{
+a.nav-link:hover:nth-child(2){
+    color: #1f2f8b;
+    border-top: 1px solid #1f2f8b;
+}
+
+a.nav-link:hover:nth-child(3){
+    color: #1f2f8b;
+    border-top: 1px solid #1f2f8b;
+}
+
+li.nav-item:nth-child(4){
     color: #ffffff;
     background-color: #1f2f8b;
 }
