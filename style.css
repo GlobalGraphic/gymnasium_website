@@ -6,8 +6,62 @@
     overflow-x: hidden;   
 }
 
+#carousel-inner {
+    width: 100%;
+    height: 100%;
+}
+
+section#newsletter {
+    background-color: #64CC27;
+    font-family: 'Poppins', sans-serif;
+}
+
+button#news_btn {
+    background-color: #1f2f8b;
+    height: 50px;
+}
+
+h1#head {
+    color: #64CC27;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 45px;
+}
+
+p#head2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin-bottom: 65px;
+    color: #1f2f8b;
+}
+
+input#text{
+    padding: 12px 20px;
+    margin: 9px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 40%;
+    height: 30%;
+    color: #1f2f8b;
+}
+
+::placeholder { 
+    color: #1f2f8b;
+    opacity: 1;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+} 
+
+h3.news_head {
+    color: #eee;
+}
+
+p.head_para {
+    color: #eee;
+}
+
 img.logo {
-    width: 200px;
+    width: 150px;
 }
 
 body#body {
@@ -39,13 +93,14 @@ a.nav-link:hover:nth-child(3){
     border-top: 1px solid #1f2f8b;
 }
 
-li.nav-item:nth-child(4){
-    color: #ffffff;
-    background-color: #1f2f8b;
+a.nav-link:hover:nth-child(4){
+    color: #1f2f8b;
+    border-top: 1px solid #1f2f8b;
 }
 
 i.fa-user {
-    margin-right: 10px;
+    margin-right: 15px;
+    font-size: 20px;
 }
 
 div.col-lg-4.mw-100.first {
@@ -58,7 +113,7 @@ div.col-lg-4.mw-100.first:after {
 	bottom: 0px;
 	right: 0;
 	width: 25%;
-	border-bottom: 2px solid #f5d306;
+	border-bottom: 3px solid #64CC27;
 }
 
 div.col-lg-4.mw-100.second {
@@ -71,7 +126,7 @@ div.col-lg-4.mw-100.second:after {
 	bottom: 0px;
 	right: 0;
 	width: 50%;
-	border-bottom: 2px solid #ec0e13;
+	border-bottom: 3px solid #64CC27;
 }
 
 div.col-lg-4.mw-100.third {
@@ -84,7 +139,7 @@ div.col-lg-4.mw-100.third:after {
 	bottom: 0px;
 	right: 0;
 	width: 75%;
-	border-bottom: 2px solid #1f2f8b;
+	border-bottom: 3px solid #64CC27;
 }
 
 img.logo {
@@ -471,7 +526,7 @@ img.icons1 {
 
 div.col-md-4 {
     width: 100%;
-    border-right: 1px solid #eee;
+    /*border-right: 1px solid #eee;*/
 }
 
 div.col-md-4.mw-100.first1{
@@ -711,3 +766,13 @@ h2.zakon {
         left: -10px;
     }
   }
+
+  @media only screen and (max-width: 1920px){
+    img.ccc {
+    width: 10%;
+    float: right;
+    position: relative;
+    }
+  }
+
+  
